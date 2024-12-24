@@ -1,87 +1,87 @@
 {
-	"name": "Cupertino Dark Mode",
-	"colors": {
+  "type": "dark",
+  "colors": {
     // Editor and background colors
-    "editor.background": "#1C1C1E",
-    "editor.foreground": "#FFFFFF",
-    "editorLineNumber.foreground": "#6C6C70",
-    "editorLineNumber.activeForeground": "#FFFFFF",
-    "editor.selectionBackground": "#48484A",
-    "editor.selectionHighlightBackground": "#48484A80",
-    "editorCursor.foreground": "#FF9F0A",
+    "editor.background": "#131921", // Deep blue-black for mystery
+    "editor.foreground": "#E0E0E0", // Soft white for readability
+    "editorLineNumber.foreground": "#536B78", // Muted teal for line numbers
+    "editorLineNumber.activeForeground": "#A3D5D3", // Softer teal for active line
+    "editor.selectionBackground": "#2E4057", // Soothing deep blue for selection
+    "editor.selectionHighlightBackground": "#2E405780", // Slight transparency for subtle selection highlight
+    "editorCursor.foreground": "#FFD700", // Golden accent for cursor
 
     // Activity bar and sidebar colors
-    "activityBar.background": "#2C2C2E",
-    "activityBar.foreground": "#FFFFFF",
-    "activityBarBadge.background": "#FF453A",
+    "activityBar.background": "#1C2A36", // Deep teal
+    "activityBar.foreground": "#D8DEE9", // Soft light gray
+    "activityBarBadge.background": "#A163E5", // Purple accent
     "activityBarBadge.foreground": "#FFFFFF",
-    "sideBar.background": "#1C1C1E",
-    "sideBar.foreground": "#FFFFFF",
-    "sideBarSectionHeader.background": "#2C2C2E",
+    "sideBar.background": "#131921",
+    "sideBar.foreground": "#C5C8D3",
+    "sideBarSectionHeader.background": "#1C2A36",
 
     // Status bar colors
-    "statusBar.background": "#2C2C2E",
-    "statusBar.foreground": "#FFFFFF",
+    "statusBar.background": "#1C2A36",
+    "statusBar.foreground": "#D8DEE9",
 
     // Terminal colors
-    "terminal.background": "#1C1C1E",
-    "terminal.foreground": "#FFFFFF",
-    "terminalCursor.foreground": "#FF9F0A",
+    "terminal.background": "#131921",
+    "terminal.foreground": "#D8DEE9",
+    "terminalCursor.foreground": "#A163E5", // Purple cursor for mystery
 
     // Dropdown and input box colors
-    "dropdown.background": "#2C2C2E",
-    "input.background": "#3A3A3C",
-    "input.foreground": "#FFFFFF"
+    "dropdown.background": "#1C2A36",
+    "input.background": "#1E2933",
+    "input.foreground": "#D8DEE9"
   },
   "tokenColors": [
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#6C6C70",
+        "foreground": "#536B78", // Muted teal for comments
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["string", "constant.language"],
       "settings": {
-        "foreground": "#30D158"
+        "foreground": "#A3D5D3" // Soft teal for strings
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#FF453A",
+        "foreground": "#A163E5", // Deep purple for keywords
         "fontStyle": "bold"
       }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#FFD60A"
+        "foreground": "#FFC078" // Warm peach for variables
       }
     },
     {
       "scope": "function",
       "settings": {
-        "foreground": "#0A84FF"
+        "foreground": "#5FB3B3" // Calming teal for functions
       }
     },
     {
       "scope": "type",
       "settings": {
-        "foreground": "#BF5AF2"
+        "foreground": "#81A1C1" // Soft blue for types
       }
     },
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#FF453A"
+        "foreground": "#A163E5" // Purple for storage keywords
       }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#FF453A",
+        "foreground": "#FF6F61",
         
       }
     }
