@@ -1,87 +1,91 @@
 {
   "type": "dark",
   "colors": {
-    // Editor and background colors
-    "editor.background": "#131921", // Deep blue-black for mystery
-    "editor.foreground": "#E0E0E0", // Soft white for readability
-    "editorLineNumber.foreground": "#536B78", // Muted teal for line numbers
-    "editorLineNumber.activeForeground": "#A3D5D3", // Softer teal for active line
-    "editor.selectionBackground": "#2E4057", // Soothing deep blue for selection
-    "editor.selectionHighlightBackground": "#2E405780", // Slight transparency for subtle selection highlight
-    "editorCursor.foreground": "#FFD700", // Golden accent for cursor
+    // Background and editor colors
+    "editor.background": "#1A202C", // Deep blue-gray for focus and calm
+    "editor.foreground": "#ECEFF4", // Soft neutral white for readability
+    "editorLineNumber.foreground": "#5C6670", // Muted gray for unobtrusive line numbers
+    "editorLineNumber.activeForeground": "#88C0D0", // Teal for active line focus
+    "editor.selectionBackground": "#3B4252", // Balanced blue-gray for selection
+    "editor.selectionHighlightBackground": "#3B425280", // Slight transparency for highlights
+    "editorCursor.foreground": "#EBCB8B", // Golden yellow for precision and focus
+    "editor.findMatchBackground": "#D0877080", // Warm orange for match highlights
+    "editor.findMatchHighlightBackground": "#BF616A50", // Subtle red for secondary matches
 
     // Activity bar and sidebar colors
-    "activityBar.background": "#1C2A36", // Deep teal
-    "activityBar.foreground": "#D8DEE9", // Soft light gray
-    "activityBarBadge.background": "#A163E5", // Purple accent
-    "activityBarBadge.foreground": "#FFFFFF",
-    "sideBar.background": "#131921",
-    "sideBar.foreground": "#C5C8D3",
-    "sideBarSectionHeader.background": "#1C2A36",
+    "activityBar.background": "#2E3440", // Deep gray-blue for structure
+    "activityBar.foreground": "#ECEFF4", // Soft white for icons
+    "activityBarBadge.background": "#81A1C1", // Calming blue badge
+    "activityBarBadge.foreground": "#2E3440", // Contrast for badge text
+    "sideBar.background": "#1A202C",
+    "sideBar.foreground": "#ECEFF4",
+    "sideBarSectionHeader.background": "#3B4252",
 
     // Status bar colors
-    "statusBar.background": "#1C2A36",
-    "statusBar.foreground": "#D8DEE9",
+    "statusBar.background": "#2E3440",
+    "statusBar.foreground": "#ECEFF4",
+    "statusBar.debuggingBackground": "#BF616A", // Red for debugging mode
+    "statusBar.debuggingForeground": "#ECEFF4",
 
     // Terminal colors
-    "terminal.background": "#131921",
-    "terminal.foreground": "#D8DEE9",
-    "terminalCursor.foreground": "#A163E5", // Purple cursor for mystery
+    "terminal.background": "#1A202C",
+    "terminal.foreground": "#ECEFF4",
+    "terminalCursor.foreground": "#EBCB8B", // Gold for focus
 
     // Dropdown and input box colors
-    "dropdown.background": "#1C2A36",
-    "input.background": "#1E2933",
-    "input.foreground": "#D8DEE9"
+    "dropdown.background": "#3B4252",
+    "input.background": "#434C5E",
+    "input.foreground": "#ECEFF4"
   },
   "tokenColors": [
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#536B78", // Muted teal for comments
+        "foreground": "#4C566A", // Subtle gray-blue for quiet comments
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["string", "constant.language"],
       "settings": {
-        "foreground": "#A3D5D3" // Soft teal for strings
+        "foreground": "#8FBCBB" // Teal for natural flow and rejuvenation
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#A163E5", // Deep purple for keywords
+        "foreground": "#B48EAD", // Purple for importance and creativity
         "fontStyle": "bold"
       }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#FFC078" // Warm peach for variables
+        "foreground": "#EBCB8B" // Gold for elegance and focus
       }
     },
     {
       "scope": "function",
       "settings": {
-        "foreground": "#5FB3B3" // Calming teal for functions
+        "foreground": "#88C0D0" // Calming blue for functionality
       }
     },
     {
       "scope": "type",
       "settings": {
-        "foreground": "#81A1C1" // Soft blue for types
+        "foreground": "#81A1C1" // Soft blue for structure
       }
     },
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#A163E5" // Purple for storage keywords
+        "foreground": "#B48EAD" // Purple for storage-related operations
       }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#FF6F61",
+        "foreground": "#BF616A",
         
       }
     }
