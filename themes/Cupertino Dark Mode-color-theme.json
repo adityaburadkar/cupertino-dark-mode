@@ -1,92 +1,84 @@
 {
   "type": "dark",
   "colors": {
-    // Background and editor colors
-    "editor.background": "#1A202C", // Deep blue-gray for focus and calm
-    "editor.foreground": "#ECEFF4", // Soft neutral white for readability
-    "editorLineNumber.foreground": "#5C6670", // Muted gray for unobtrusive line numbers
-    "editorLineNumber.activeForeground": "#88C0D0", // Teal for active line focus
-    "editor.selectionBackground": "#3B4252", // Balanced blue-gray for selection
-    "editor.selectionHighlightBackground": "#3B425280", // Slight transparency for highlights
-    "editorCursor.foreground": "#EBCB8B", // Golden yellow for precision and focus
-    "editor.findMatchBackground": "#D0877080", // Warm orange for match highlights
-    "editor.findMatchHighlightBackground": "#BF616A50", // Subtle red for secondary matches
-
-    // Activity bar and sidebar colors
-    "activityBar.background": "#2E3440", // Deep gray-blue for structure
-    "activityBar.foreground": "#ECEFF4", // Soft white for icons
-    "activityBarBadge.background": "#81A1C1", // Calming blue badge
-    "activityBarBadge.foreground": "#2E3440", // Contrast for badge text
-    "sideBar.background": "#1A202C",
-    "sideBar.foreground": "#ECEFF4",
-    "sideBarSectionHeader.background": "#3B4252",
-
-    // Status bar colors
-    "statusBar.background": "#2E3440",
-    "statusBar.foreground": "#ECEFF4",
-    "statusBar.debuggingBackground": "#BF616A", // Red for debugging mode
-    "statusBar.debuggingForeground": "#ECEFF4",
-
-    // Terminal colors
-    "terminal.background": "#1A202C",
-    "terminal.foreground": "#ECEFF4",
-    "terminalCursor.foreground": "#EBCB8B", // Gold for focus
-
-    // Dropdown and input box colors
-    "dropdown.background": "#3B4252",
-    "input.background": "#434C5E",
-    "input.foreground": "#ECEFF4"
+    "editor.background": "#202225", // Deep charcoal for focus
+    "editor.foreground": "#EDEDED", // Neutral light gray for text
+    "editorLineNumber.foreground": "#5A5D62", // Muted gray for unobtrusive line numbers
+    "editorLineNumber.activeForeground": "#A6A6A6", // Slightly lighter gray for the active line number
+    "editor.selectionBackground": "#3C3F41", // Subtle gray for selection
+    "editor.selectionHighlightBackground": "#4C4F5180", // Slightly darker gray for secondary highlights
+    "editorCursor.foreground": "#FFA94D", // Warm orange for precision
+    "activityBar.background": "#26292C", // Slightly darker charcoal for the activity bar
+    "activityBar.foreground": "#EDEDED",
+    "activityBarBadge.background": "#FF8800", // Vibrant orange for badges
+    "activityBarBadge.foreground": "#202225",
+    "sideBar.background": "#202225",
+    "sideBar.foreground": "#EDEDED",
+    "sideBarSectionHeader.background": "#26292C",
+    "statusBar.background": "#26292C",
+    "statusBar.foreground": "#EDEDED",
+    "statusBar.debuggingBackground": "#FF8800",
+    "statusBar.debuggingForeground": "#202225",
+    "terminal.background": "#202225",
+    "terminal.foreground": "#EDEDED",
+    "terminalCursor.foreground": "#FFA94D",
+    "dropdown.background": "#2E3135",
+    "input.background": "#2C2F33",
+    "input.foreground": "#EDEDED",
+    "scrollbarSlider.background": "#3C3F41",
+    "scrollbarSlider.hoverBackground": "#4C4F51",
+    "scrollbarSlider.activeBackground": "#5C5F61"
   },
   "tokenColors": [
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#4C566A", // Subtle gray-blue for quiet comments
+        "foreground": "#606366", // Muted gray for comments
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["string", "constant.language"],
       "settings": {
-        "foreground": "#8FBCBB" // Teal for natural flow and rejuvenation
+        "foreground": "#8AC149" // Blender's vibrant green for strings
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#B48EAD", // Purple for importance and creativity
+        "foreground": "#FFA94D", // Blender's bright orange for keywords
         "fontStyle": "bold"
       }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#EBCB8B" // Gold for elegance and focus
+        "foreground": "#59ABE3" // Blender's light blue for variables
       }
     },
     {
       "scope": "function",
       "settings": {
-        "foreground": "#88C0D0" // Calming blue for functionality
+        "foreground": "#7A67E0" // Blender's purple for functions
       }
     },
     {
       "scope": "type",
       "settings": {
-        "foreground": "#81A1C1" // Soft blue for structure
+        "foreground": "#59ABE3" // Consistent light blue for types
       }
     },
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#B48EAD" // Purple for storage-related operations
+        "foreground": "#FFA94D" // Vibrant orange for storage
       }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#BF616A",
-        
+        "foreground": "#FF4E50", // Red for errors
+        "fontStyle": "bold"
       }
     }
   ]
