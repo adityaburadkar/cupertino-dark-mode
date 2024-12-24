@@ -1,0 +1,89 @@
+{
+	"name": "Cupertino Dark Mode",
+	"colors": {
+    // Editor and background colors
+    "editor.background": "#1C1C1E",
+    "editor.foreground": "#FFFFFF",
+    "editorLineNumber.foreground": "#6C6C70",
+    "editorLineNumber.activeForeground": "#FFFFFF",
+    "editor.selectionBackground": "#48484A",
+    "editor.selectionHighlightBackground": "#48484A80",
+    "editorCursor.foreground": "#FF9F0A",
+
+    // Activity bar and sidebar colors
+    "activityBar.background": "#2C2C2E",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBarBadge.background": "#FF453A",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "sideBar.background": "#1C1C1E",
+    "sideBar.foreground": "#FFFFFF",
+    "sideBarSectionHeader.background": "#2C2C2E",
+
+    // Status bar colors
+    "statusBar.background": "#2C2C2E",
+    "statusBar.foreground": "#FFFFFF",
+
+    // Terminal colors
+    "terminal.background": "#1C1C1E",
+    "terminal.foreground": "#FFFFFF",
+    "terminalCursor.foreground": "#FF9F0A",
+
+    // Dropdown and input box colors
+    "dropdown.background": "#2C2C2E",
+    "input.background": "#3A3A3C",
+    "input.foreground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6C6C70",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "constant.language"],
+      "settings": {
+        "foreground": "#30D158"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#FF453A",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#FFD60A"
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#0A84FF"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#BF5AF2"
+      }
+    },
+    {
+      "scope": "storage",
+      "settings": {
+        "foreground": "#FF453A"
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FF453A",
+        
+      }
+    }
+  ]
+}

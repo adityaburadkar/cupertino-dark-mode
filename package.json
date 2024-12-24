@@ -1,0 +1,21 @@
+{
+  "name": "cupertino-dark-mode",
+  "displayName": "Cupertino Dark Mode",
+  "description": "With carefully balanced grays, vibrant accents, and excellent readability, this theme ensures comfort during long coding sessions while maintaining aesthetic appeal.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cupertino Dark Mode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cupertino Dark Mode-color-theme.json"
+      }
+    ]
+  }
+}
