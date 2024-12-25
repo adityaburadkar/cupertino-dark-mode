@@ -1,84 +1,102 @@
 {
   "type": "dark",
   "colors": {
-    "editor.background": "#202225", // Deep charcoal for focus
-    "editor.foreground": "#EDEDED", // Neutral light gray for text
-    "editorLineNumber.foreground": "#5A5D62", // Muted gray for unobtrusive line numbers
-    "editorLineNumber.activeForeground": "#A6A6A6", // Slightly lighter gray for the active line number
-    "editor.selectionBackground": "#3C3F41", // Subtle gray for selection
-    "editor.selectionHighlightBackground": "#4C4F5180", // Slightly darker gray for secondary highlights
-    "editorCursor.foreground": "#FFA94D", // Warm orange for precision
-    "activityBar.background": "#26292C", // Slightly darker charcoal for the activity bar
-    "activityBar.foreground": "#EDEDED",
-    "activityBarBadge.background": "#FF8800", // Vibrant orange for badges
-    "activityBarBadge.foreground": "#202225",
-    "sideBar.background": "#202225",
-    "sideBar.foreground": "#EDEDED",
-    "sideBarSectionHeader.background": "#26292C",
-    "statusBar.background": "#26292C",
-    "statusBar.foreground": "#EDEDED",
-    "statusBar.debuggingBackground": "#FF8800",
-    "statusBar.debuggingForeground": "#202225",
-    "terminal.background": "#202225",
-    "terminal.foreground": "#EDEDED",
-    "terminalCursor.foreground": "#FFA94D",
-    "dropdown.background": "#2E3135",
-    "input.background": "#2C2F33",
-    "input.foreground": "#EDEDED",
-    "scrollbarSlider.background": "#3C3F41",
-    "scrollbarSlider.hoverBackground": "#4C4F51",
-    "scrollbarSlider.activeBackground": "#5C5F61"
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.lineHighlightBackground": "#1A1A1A",
+    "editorLineNumber.foreground": "#B0B0B0",
+    "editor.selectionBackground": "#2E2E2E",
+    "editor.selectionHighlightBackground": "#1A1A1A80",
+    "editor.wordHighlightBackground": "#2E2E2E80",
+    "editorBracketMatch.border": "#FFFFFF",
+    "activityBar.background": "#1A1A1A",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBarBadge.background": "#FFFFFF",
+    "activityBarBadge.foreground": "#000000",
+    "sideBar.background": "#1A1A1A",
+    "sideBar.foreground": "#B0B0B0",
+    "sideBarTitle.foreground": "#FFFFFF",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.debuggingBackground": "#2E2E2E",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#FFFFFF",
+    "terminalCursor.background": "#FFFFFF",
+    "terminalCursor.foreground": "#FFFFFF",
+    "tab.activeBackground": "#1A1A1A",
+    "tab.inactiveBackground": "#000000",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#B0B0B0",
+    "button.background": "#2E2E2E",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#1A1A1A",
+    "dropdown.background": "#1A1A1A",
+    "dropdown.foreground": "#FFFFFF",
+    "input.background": "#2E2E2E",
+    "input.foreground": "#FFFFFF",
+    "scrollbarSlider.background": "#1A1A1A",
+    "scrollbarSlider.hoverBackground": "#2E2E2E"
   },
   "tokenColors": [
     {
-      "scope": "comment",
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#606366", // Muted gray for comments
+        "foreground": "#B0B0B0",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": ["string", "constant.language"],
-      "settings": {
-        "foreground": "#8AC149" // Blender's vibrant green for strings
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#FFA94D", // Blender's bright orange for keywords
+        "foreground": "#FFFFFF",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#59ABE3" // Blender's light blue for variables
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#B0B0B0"
       }
     },
     {
       "scope": "function",
       "settings": {
-        "foreground": "#7A67E0" // Blender's purple for functions
+        "foreground": "#FFFFFF",
+        "fontStyle": "bold"
       }
     },
     {
-      "scope": "type",
+      "scope": "constant.numeric",
       "settings": {
-        "foreground": "#59ABE3" // Consistent light blue for types
+        "foreground": "#B0B0B0"
       }
     },
     {
-      "scope": "storage",
+      "scope": "entity.name.type",
       "settings": {
-        "foreground": "#FFA94D" // Vibrant orange for storage
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "meta.import",
+      "settings": {
+        "foreground": "#B0B0B0",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#FF4E50", // Red for errors
-        "fontStyle": "bold"
+        "foreground": "#FFFFFF",
+        
       }
     }
   ]
